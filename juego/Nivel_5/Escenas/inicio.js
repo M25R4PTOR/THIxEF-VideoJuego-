@@ -51,7 +51,7 @@ class Inicio extends Phaser.Scene {
            
         }
 		
-		if (Phaser.Input.Keyboard.JustDown(cursors.salir)) {
+	if (Phaser.Input.Keyboard.JustDown(this.boton.salir)) {
             location.replace("../../index.html");
         }
     }
