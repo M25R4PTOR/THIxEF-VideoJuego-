@@ -62,6 +62,10 @@ class Inicio extends Phaser.Scene {
             }
            
         }
+	
+	if (Phaser.Input.Keyboard.JustDown(cursors.salir)) {
+            location.replace("../../index.html");
+        }
 
     }
 
