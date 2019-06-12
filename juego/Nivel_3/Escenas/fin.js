@@ -52,7 +52,7 @@ class Fin extends Phaser.Scene {
 
         if (Phaser.Input.Keyboard.JustDown(this.boton.twittear)) {
             var enlace = document.getElementById("twittear");
-            enlace.href = "https://twitter.com/intent/tweet?text=He completado el Nivel 1 de THIxEF con " + gameSettings.puntos + " Puntos!";
+            enlace.href = "https://twitter.com/intent/tweet?text=He completado el Nivel 3 de THIxEF con " + gameSettings.puntos + " Puntos!";
             enlace.click();
         }
     }
