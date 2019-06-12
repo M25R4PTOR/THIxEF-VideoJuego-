@@ -47,6 +47,10 @@ class Inicio extends Phaser.Scene {
             this.scene.remove('Inicio');
             this.scene.launch('Juego');
         }
+	    
+	if (Phaser.Input.Keyboard.JustDown(cursors.salir)) {
+            location.replace("../../index.html");
+        }
     }
 
     crearBackground(){
