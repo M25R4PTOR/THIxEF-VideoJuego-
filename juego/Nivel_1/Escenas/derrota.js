@@ -51,7 +51,7 @@ class Derrota extends Phaser.Scene {
         }
 
         if (Phaser.Input.Keyboard.JustDown(this.boton.salir)) {
-            location.replace("../../niveles.php");
+            location.replace("../../index.html");
         }
     }
 
