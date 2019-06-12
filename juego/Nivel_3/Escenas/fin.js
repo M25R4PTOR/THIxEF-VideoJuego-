@@ -21,7 +21,7 @@ class Fin extends Phaser.Scene {
         this.auxiliar=true;
         this.textoTitulo = this.add.bitmapText(gameSettings.gameWidth/2, gameSettings.gameHeight/2 - 50, 'letras', 'NIVEL COMPLETADO', 50).setOrigin(0.5);
         this.textoTitulo.setTint(0xff0000, 0xff0000, 0xff0000, 0xff0000);
-        this.textoEnter = this.add.bitmapText(gameSettings.gameWidth/2, gameSettings.gameHeight/2 + 50, 'Presiona ENTER para volver a elegir nivel\n"T" para Twittear puntuación', 20).setOrigin(0.5);
+        this.textoEnter = this.add.bitmapText(gameSettings.gameWidth/2, gameSettings.gameHeight/2 + 50, 'Presiona ENTER para volver a elegir nivel\n   "T" para Twittear puntuacion', 20).setOrigin(0.5);
         this.textoEnter.setTint(0xff0000);
 
         this.tweens.add({
