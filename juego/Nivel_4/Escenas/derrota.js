@@ -49,6 +49,10 @@ class Derrota extends Phaser.Scene {
         if (Phaser.Input.Keyboard.JustDown(this.boton.intro)) {
             location.reload();
         }
+	    
+	if (Phaser.Input.Keyboard.JustDown(this.boton.salir)) {
+            location.replace("../../index.html");
+        }
     }
 
     crearBackground(){
